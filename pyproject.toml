@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ai-chatbot"
+version = "0.1.0"
+description = "AI-powered chatbot designed to interact via WhatsApp."
+authors = ["Joaquin Senn <joaquinsenn@gmail.net>"]
+readme = "README.md"
+packages = [{include = "ai_chatbot"}]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+flask = "^2.2"
+requests = "^2.28"
+openai = "^0.27"
+langchain = "^0.0.113"
+python-dotenv = "^1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
